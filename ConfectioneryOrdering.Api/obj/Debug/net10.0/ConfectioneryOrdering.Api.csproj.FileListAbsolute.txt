@@ -32,3 +32,6 @@
 /workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/obj/Debug/net10.0/ConfectioneryOrdering.Api.pdb
 /workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/obj/Debug/net10.0/ConfectioneryOrdering.Api.genruntimeconfig.cache
 /workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/obj/Debug/net10.0/ref/ConfectioneryOrdering.Api.dll
+/workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "RTpAkFUkPAI=",
+  "dgSpecHash": "2fO8bzb0Zwc=",
   "success": true,
   "projectFilePath": "/workspaces/confectionery-ordering-site/ConfectioneryOrdering.Api/ConfectioneryOrdering.Api.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/10.0.4/microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore/10.1.5/swashbuckle.aspnetcore.10.1.5.nupkg.sha512",
+    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.5/swashbuckle.aspnetcore.swagger.10.1.5.nupkg.sha512",
+    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.5/swashbuckle.aspnetcore.swaggergen.10.1.5.nupkg.sha512",
+    "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.5/swashbuckle.aspnetcore.swaggerui.10.1.5.nupkg.sha512"
   ],
   "logs": []
 }
