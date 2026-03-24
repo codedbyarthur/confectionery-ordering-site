@@ -23,6 +23,32 @@ namespace ConfectioneryOrdering.Api.Controllers
             pedidos.Add(pedido);
 
             return Ok(pedido);
-        }
+        }   
+            [HttpPut("{id}")]
+            public IActionResult Put(int id, [FromBody] Pedido pedidoAtualizado)
+            {
+                var pedido = pedidos.FirstOrDefault(p => p.Id == id);
+                if (pedido == null)
+                    return NotFound();
+                else
+                {
+                    pedido.Cliente = pedidoAtualizado.Cliente;
+                    pedido.Produto = pedidoAtualizado.Produto;
+                    pedido.Quantidade = pedidoAtualizado.Quantidade;
+                }
+                return Ok(pedido);
+            }
+            [HttpDelete("{id}")]
+            public IActionResult Delete(int id)
+            {
+                var pedido = pedidos.FirstOrDefault(p => p.Id == id);
+                if (pedido == null)
+                    return NotFound();
+                else
+                {
+                    pedidos.Remove(pedido);
+                    return Ok(pedido);
+                }
+            }
     }
 }
