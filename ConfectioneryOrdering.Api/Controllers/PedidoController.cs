@@ -32,7 +32,7 @@ namespace ConfectioneryOrdering.Api.Controllers
                     return NotFound();
                 else
                 {
-                    pedido.Cliente = pedidoAtualizado.Cliente;
+                    pedido.NomeCliente = pedidoAtualizado.NomeCliente;
                     pedido.Produto = pedidoAtualizado.Produto;
                     pedido.Quantidade = pedidoAtualizado.Quantidade;
                 }
