@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConfectioneryOrdering.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d1037f2444eb3af5bc695a68a3ac540d9aba68c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53344fee48b63d3ac393908136de04c2c0d5f09a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConfectioneryOrdering.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConfectioneryOrdering.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

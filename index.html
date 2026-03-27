@@ -1,6 +1,6 @@
 <html>
     <body>
-        <p>Nome;</p>
+        <p>Nome</p>
         <input id="Nome">
         <p>Produto:</p>
         <input id="Produto">    
@@ -9,6 +9,21 @@
     <script>
         function criarPedido(){
             alert("clicou")
-        }
+            let nome = document.getElementById("Nome").value;
+            alert(nome)
+            let produto = document.getElementById("Produto").value;
+            alert(produto)
+            fetch("https://animated-space-succotash-g4wx4674wrjvfp4vv-5225.app.github.dev/api/pedido", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    nomeCliente: nome,
+                    produto: produto,
+                    quantidade: 1
+                })
+            }
+        )}
     </script>
 </html>

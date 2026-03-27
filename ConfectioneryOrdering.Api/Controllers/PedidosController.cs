@@ -32,6 +32,7 @@ namespace ConfectioneryOrdering.Api.Controllers
                     return NotFound();
                 else
                 {
+                    //ajustar e deixar só status
                     pedido.NomeCliente = pedidoAtualizado.NomeCliente;
                     pedido.Produto = pedidoAtualizado.Produto;
                     pedido.Quantidade = pedidoAtualizado.Quantidade;
